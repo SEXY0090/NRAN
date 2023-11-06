@@ -1,5 +1,5 @@
 import os, sys
 try:
-    __import__("LOL").xxr()
+    __import__("NRAN").sykology()
 except Exception as e:
     exit(str(e))
