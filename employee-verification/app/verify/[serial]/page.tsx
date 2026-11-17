@@ -5,7 +5,7 @@ export const revalidate = 60;
 
 export default async function VerifyPage({ params }: { params: Promise<{serial:string}> }) {
   const { serial } = await params;
-  if (!/^[A-Za-z0-9._-]{1,120}$/.test(serial) || serial === "." || serial === "..") notFound();
+  if (!/^[A-Za-z0-9._-]{1,120}$/.test(serial) || serial === "." || serial === "..") Found();
   let employee;
   try { employee = await getEmployee(serial); } catch { employee = null; }
   if (!employee) notFound();
