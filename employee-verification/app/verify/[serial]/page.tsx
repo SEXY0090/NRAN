@@ -25,13 +25,13 @@ export default async function VerifyPage({ params }: { params: Promise<{serial:s
           <div className="mrz-status">
             <img className="success-icon" src="https://raw.githubusercontent.com/SEXY0090/NRAN/refs/heads/main/circle_success.png" alt="Record found" />
           </div>
-          <div className="mrz-content">
-            {employee.fields.map((field, index) => (
-              <div className="mrz-row" key={`${field.label}-${index}`}>
-                <strong>{field.label}</strong><span>{field.value}</span>
-              </div>
-            ))}
-          </div>
+         <div className="mrz-content">
+  {employee.fields.map((field, index) => (
+    <div className="mrz-row" key={`${field.label}-${index}`}>
+      <strong>{field.label} :</strong><span>{field.value}</span>
+    </div>
+  ))}
+</div>
           <footer className="mrz-footer">
             <p>For any further information on this document, please contact the issuer of the document.</p>
           </footer>
