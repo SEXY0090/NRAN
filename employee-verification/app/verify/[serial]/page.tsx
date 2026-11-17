@@ -34,10 +34,8 @@ export default async function VerifyPage({ params }: { params: Promise<{serial:s
             <div className="verified-note">This record was retrieved from the company’s configured GitHub data repository.</div>
           </div>
           <footer className="mrz-footer">
-            <p>Verification status: RECORD FOUND</p>
-            <p>For confirmation, contact the issuing company through its official channels.</p>
+            <p>For any further information on this document, please contact the issuer of the document.</p>
           </footer>
-          <div className="mrz-watermark">COMPANY E-VERIFICATION • NOT A GOVERNMENT DOCUMENT</div>
         </article>
       </section>
     </main>
