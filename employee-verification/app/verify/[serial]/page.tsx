@@ -26,8 +26,6 @@ export default async function VerifyPage({ params }: { params: Promise<{serial:s
             <img className="success-icon" src="https://raw.githubusercontent.com/SEXY0090/NRAN/refs/heads/main/circle_success.png" alt="Record found" />
           </div>
           <div className="mrz-content">
-            <div className="verification-heading">Employee record found</div>
-            <div className="serial-line"><strong>Employee File:</strong><span>{employee.serial}</span></div>
             {employee.fields.map((field, index) => (
               <div className="mrz-row" key={`${field.label}-${index}`}>
                 <strong>{field.label}</strong><span>{field.value}</span>
