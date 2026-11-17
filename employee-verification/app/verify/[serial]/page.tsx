@@ -31,7 +31,6 @@ export default async function VerifyPage({ params }: { params: Promise<{serial:s
                 <strong>{field.label}</strong><span>{field.value}</span>
               </div>
             ))}
-            <div className="verified-note">This record was retrieved from the company’s configured GitHub data repository.</div>
           </div>
           <footer className="mrz-footer">
             <p>For any further information on this document, please contact the issuer of the document.</p>
