@@ -21,7 +21,7 @@ export default async function VerifyPage({ params }: { params: Promise<{serial:s
       </header>
       <section className="mrz-background">
         <article className="mrz-card">
-          <div className="mrz-label">E-VERIFICATION</div>
+        
           <div className="mrz-status">
             <img className="success-icon" src="https://raw.githubusercontent.com/SEXY0090/NRAN/refs/heads/main/circle_success.png" alt="Record found" />
           </div>
