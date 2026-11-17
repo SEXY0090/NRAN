@@ -1,0 +1,69 @@
+      <!-- DETAILS -->
+      <div class="mrz-content">
+
+        <div class="mrz-row">
+          <strong>Deliverable Id :</strong>
+          <span>121-2026-25597-EN</span>
+        </div>
+
+        <div class="mrz-row">
+          <strong>Published on :</strong>
+          <span>25/10/2026</span>
+        </div>
+
+        <div class="mrz-row">
+          <strong>QR Code Status :</strong>
+          <span>VALIDATED</span>
+        </div>
+
+        <div class="mrz-row">
+          <strong>NAME :</strong>
+          <span>MD MEITHUN HOSSAIN</span>
+        </div>
+
+        <div class="mrz-row">
+          <strong>ID :</strong>
+          <span>2628390110</span>
+        </div>
+
+        <div class="mrz-row">
+          <strong>ISSUED ON :</strong>
+          <span>25/10/2026</span>
+        </div>
+
+        <div class="mrz-row">
+          <strong>VALID UNTIL :</strong>
+          <span>24/10/2027</span>
+        </div>
+
+        <div class="mrz-row">
+          <strong>TYPE :</strong>
+          <span>SCFFOLDING ERECTOR AND DISMANTLER</span>
+        </div>
+
+        <div class="mrz-row">
+          <strong>MODEL :</strong>
+          <span>N/A</span>
+        </div>
+
+        <div class="mrz-row">
+          <strong>COMPANY :</strong>
+          <span>PRIVATE</span>
+        </div>
+
+        <div class="mrz-row">
+          <strong>TRAINING LOCATION :</strong>
+          <span>JUBAIL</span>
+        </div>
+
+        <div class="mrz-row">
+          <strong>TRAINER :</strong>
+          <span>ZEESHAN KHAN</span>
+        </div>
+
+      </div>
+
+      <!-- FOOTER -->
+      <div class="mrz-footer">
+        For any further information on this document, please contact the issuer of the document.
+      </div>
